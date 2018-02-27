@@ -1,0 +1,71 @@
+#sm_search {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#sm_search .header {
+  height: 0.6rem;
+  display: flex;
+  background: #26a2ff;
+}
+
+#sm_search .header .h_center {
+  flex: 1;
+  height: 0.6rem;
+  color: 000 !important;
+}
+
+#sm_search .header .h_center .mint-searchbar {
+  background: #26a2ff;
+  padding: 0;
+  height: 0.6rem;
+}
+
+#sm_search .header .h_center .mint-searchbar .mint-searchbar-cancel {
+  background: #26a2ff;
+  color: #fff;
+}
+
+#sm_search .header .mint-button--default {
+  background: #26a2ff;
+  line-height: 0.6rem;
+  color: #fff;
+}
+
+#sm_search .header .mint-button--default label {
+  font-size: 0.186667rem;
+}
+
+#sm_search .main {
+  flex: 1;
+  overflow-x: hidden;
+  margin-top: 0.133333rem;
+}
+
+#sm_search .main h3 {
+  font-size: 0.266667rem;
+  color: #58bc58;
+}
+
+#sm_search .main h3 i {
+  float: right;
+  margin-right: 0.133333rem;
+}
+
+#sm_search .main .show {
+  margin: 0.133333rem 0;
+  font-size: 0.213333rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sm_search .main .show li {
+  flex: 1;
+  margin: 0.066667rem 0.066667rem;
+  display: inline-block;
+  padding: 0.04rem 0.1067rem;
+  background: #ccc;
+  border-radius: 40.1333rem;
+}

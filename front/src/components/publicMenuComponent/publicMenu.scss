@@ -1,0 +1,29 @@
+.menu_cen{
+  // height: 0.7rem;
+  // position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(252, 247, 247);
+  ul{
+    display: flex;
+    border-top: 1px solid #ccc;
+
+    // flex-wrap: wrap;
+    li{
+
+      flex: 1;
+      // width: 200px;
+      // height: 300px;
+      padding-top:10px;
+      i,span{
+        display: block;
+        text-align: center;
+        color:#444;
+      }
+      i{
+        font-size: 48px;
+        margin:0 auto;
+      }
+    }
+  }
+}

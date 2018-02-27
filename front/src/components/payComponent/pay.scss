@@ -1,0 +1,24 @@
+#pay{
+    >div{
+        padding: .1rem;
+        padding-top:.67rem;
+        .mint-header-title{
+            font-size: .23rem;
+        }
+        .mint-button{
+            width:100%;
+            margin-top:0.97rem;
+        }
+        p{
+            height:.7rem;
+            line-height:.7rem;
+            border-bottom:0.01rem #ccc solid;
+            span{
+                // width:1.3rem;
+                text-align: center;
+                float: right;
+                color:red;
+            }
+        }
+    }
+}

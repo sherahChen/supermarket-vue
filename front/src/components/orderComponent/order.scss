@@ -1,0 +1,81 @@
+#order{
+    .mint-tab-item{
+        padding:0;
+        span{
+            display: block;
+            padding:0.27rem 0.13rem;
+        }
+    }
+    .mint-header{
+        height:0.6rem;
+        .mint-header-title{
+            font-size: 0.24rem;
+        }
+    }
+    .mint-tab-item{
+        .mint-tab-item-label{
+            font-size:0.21rem;
+            color:black;
+        }
+    }
+    #orderlist{
+        margin-top: 0.03rem;
+        padding:.2rem 0 0 0;
+        background: rgb(217, 222, 236);
+        &>div{
+            background: white;
+            overflow:hidden;
+            margin-bottom: .2rem;
+            border-bottom:0;
+            padding: 0.07rem;
+            &>div{
+                overflow:hidden;
+                display: flex;
+                padding: 0.07rem;
+                border-bottom: 0.01rem solid #ccc;
+                span{
+                    font-size:0.19rem;
+                    margin-right: .4rem /* 30/75 */
+                }
+                i{
+                    flex:1;
+                    font-size:0.2rem;
+                    text-align: right;
+                    margin-right:0.07rem;
+                    font-weight:100;
+                }
+                img{
+                    float:left;
+                    width:1.33rem;
+                    height:1.33rem;
+                }
+                >div{
+                    flex:1;
+                    float:left;
+                    height:1rem;
+                    padding-top:.33rem /* 25/75 */;
+                    padding-left:0.13rem;
+                    .orderqty{
+                        float:right;
+                    }
+                }
+            }
+            P{
+                font-size:0.19rem;
+                text-align: right;
+                margin-right: .2rem /* 15/75 */;
+                margin-top:.08rem;
+            }
+            button{
+                font-size:0.19rem;
+                float:right;
+                padding:.07rem .15rem;
+                margin:.13rem .15rem /* 10/75 */;
+                color: rgb(96, 129, 240);
+                border-color: rgb(96, 129, 240);
+                background: white;
+                outline:0;
+            }
+        }
+    }
+}

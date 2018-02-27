@@ -1,0 +1,279 @@
+@charset "UTF-8";
+.product_cen {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_cen .top {
+  height: 160px;
+  position: relative;
+}
+
+.product_cen .top .mint-header {
+  height: 0.6rem;
+  background: #26a2ff;
+}
+
+.product_cen .top .mint-header h1 {
+  font-size: 0.25rem;
+  margin: 0;
+}
+
+.product_cen .top .glyphicon-home {
+  position: absolute;
+  right: 20px;
+  top: 24px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.product_cen .top .serch {
+  position: absolute;
+  top: 10px;
+  width: 470px;
+  left: 22%;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.product_cen .top .Menu_cen {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.product_cen .top .Menu_cen .Menu {
+  height: 60px;
+  display: flex;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.product_cen .top .Menu_cen .Menu > li {
+  flex: 1;
+  text-align: center;
+  line-height: 60px;
+}
+
+.product_cen .top .Menu_cen .menus {
+  font-size: 0.2rem;
+  height: 560px;
+  background: #eee;
+  display: flex;
+}
+
+.product_cen .top .Menu_cen .menus .menus_left {
+  flex: 35%;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 60px;
+}
+
+.product_cen .top .Menu_cen .menus .menus_right {
+  flex: 65%;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.product_cen .top .Menu_cen .menus .menus_right li {
+  border-bottom: 1px solid #eee;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 60px;
+}
+
+.product_cen .top .Menu_cen .sort {
+  height: 450px;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.product_cen .top .Menu_cen .sort .sortItem {
+  flex: 1;
+  font-size: 0.2rem;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.product_cen .top .Menu_cen .filter {
+  height: 400px;
+  background: #fff;
+}
+
+.product_cen .top .Menu_cen .filter .top {
+  height: 260px;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_cen .top .Menu_cen .filter .top .filterItem {
+  width: 30%;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #58bc58;
+  margin: 10px;
+  font-size: 0.2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product_cen .top .Menu_cen .filter .filterBtn {
+  height: 80px;
+  border: 1px solid #eee;
+  display: flex;
+}
+
+.product_cen .top .Menu_cen .filter .filterBtn span {
+  flex: 80%;
+  font-size: 24px;
+  line-height: 80px;
+  padding-left: 30px;
+}
+
+.product_cen .top .Menu_cen .filter .filterBtn button {
+  flex: 20%;
+  margin: 0;
+  font-size: 0.2rem;
+}
+
+.product_cen .product_menu {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+.product_cen .product_menu .goodItem {
+  display: flex;
+  padding: 30px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.product_cen .product_menu .goodItem .left_img {
+  width: 200px;
+}
+
+.product_cen .product_menu .goodItem .left_img img {
+  width: 200px;
+  height: 200px;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess {
+  flex: 1;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .goodName {
+  font-size: 34px;
+  font-family: '微软雅黑';
+  height: 60px;
+  width: 300px;
+  line-height: 60px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .goodDescribe {
+  font-size: 22px;
+  height: 50px;
+  line-height: 50px;
+  color: #cca;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess h4 {
+  position: relative;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .goodSize {
+  height: 30px;
+  margin: 10px 0 20px 0;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .goodSize span {
+  background: #eee;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .goodPre {
+  font-size: 40px;
+  color: orange;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .goodOrgpre {
+  text-decoration: line-through;
+  margin-left: 30px;
+  font-size: 28px;
+}
+
+.product_cen .product_menu .goodItem .right_prd_mess .buy {
+  position: absolute;
+  right: 20px;
+  width: 150px;
+  border: none;
+  background: #ff950a;
+  height: 50px;
+  bottom: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.product_cen .addCar {
+  height: 100px;
+  background: #2d3030;
+  display: flex;
+  color: #fff;
+}
+
+.product_cen .addCar > .carIcom {
+  flex: 1.5;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+}
+
+.product_cen .addCar > .carIcom .carNum {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  background: red;
+  border-radius: 50%;
+  left: 20px;
+  top: 24px;
+  font-size: 20px;
+}
+
+.product_cen .addCar .prdNum {
+  flex: 3;
+  padding-left: 30px;
+  line-height: 100px;
+}
+
+.product_cen .addCar .prdNum span {
+  margin-left: 20px;
+}
+
+.product_cen .addCar .prdprice {
+  flex: 2;
+  line-height: 100px;
+}
+
+.product_cen .addCar .account {
+  flex: 2.5;
+  position: relative;
+}
+
+.product_cen .addCar .account button {
+  position: absolute;
+  right: 0;
+  width: 190px;
+  height: 100px;
+  color: #fff;
+  background: #d1d1cb;
+}

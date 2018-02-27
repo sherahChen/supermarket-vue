@@ -1,0 +1,73 @@
+$mainColor:#26a2ff;
+$hsize:0.6rem;
+#sm_add{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+        .add_header{
+            line-height: $hsize;
+            background:$mainColor;
+             height: $hsize;
+            .mint-header-title{
+             font-size:0.24rem;
+             }
+             .mint-button{
+            line-height: $hsize;
+             }
+         }
+         .add_main{
+            flex:1;
+            .gender{
+                 span{
+                    text-decoration:none;
+                    font-size:0.1867rem;
+                    padding:0.04rem 0.1067rem;
+                    border:0.0133rem solid #ddd;
+                    margin-left:0.2rem;
+                    border-radius:0.1067rem;
+                 }
+            }
+            .address{
+                 height:0.64rem;
+                 padding:0 0.1333rem;
+                p{
+
+                line-height: 0.64rem;
+                     label{
+                        font-size:0.2133rem;
+                        width: 1.4rem;
+                         }
+                     span{
+                        padding:0.04rem 0.1067rem;
+                        border:0.0133rem solid #ddd;
+                        margin-right:0.2rem;
+                        border-radius:0.1333rem;
+                     }
+                }
+
+            }
+            .active{
+                background:#26a2ff;
+                color:#fff;
+            }
+            .active1{
+                background:#26a2ff;
+                color:#fff;
+            }
+            .mint-button--large{
+                width: 90%;
+                border-radius:0.2667rem;
+                margin:auto;
+                margin-top:0.4rem;
+            }
+         }
+         .mint-popup{
+             width: 100%;
+             height: 0.6rem;
+             line-height: 0.6rem;
+             text-align:center;
+            color:#000;
+             background:#fff;
+
+         }
+}

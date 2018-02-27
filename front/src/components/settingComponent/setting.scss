@@ -1,0 +1,52 @@
+#setting{
+    .mint-header{
+        height:0.6rem;
+        span{
+            height: 0.6rem;
+            line-height: 0.53rem;
+        }
+    }
+    .mint-header-button{
+        padding:0;
+    }
+    .head{
+        display: flex;
+        padding:0.27rem 0.27rem;
+        span{
+            width:0.67rem;
+            height:0.4rem;
+            margin-top:0.93rem;
+        }
+        input{
+            flex:1;
+            width:1.33rem;
+            height:0.4rem;
+            margin-top:0.93rem;
+        }
+        img{
+            width:1.33rem;
+            height:1.33rem;
+            border-radius:50%;
+        }
+    }
+    div{
+        padding:0.13rem 0.27rem;
+        display: flex;
+        label{
+            width:0.67rem;
+            height:0.4rem;
+            line-height:0.4rem;
+            margin:0;
+        }
+        input{
+            flex:1;
+            border:0;
+        }
+        button{
+            flex:1;
+        }
+        span{
+            line-height:0.4rem;
+        }
+    }
+}

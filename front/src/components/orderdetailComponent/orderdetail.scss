@@ -1,0 +1,96 @@
+#orderdetail{
+    .mint-header{
+        height:0.6rem /* 45/75 */;
+    }
+    .mint-header-title{
+        font-size:0.2rem;
+    }
+    .goodsMessage{
+        padding:0.1rem;
+        overflow:hidden ;
+        border-bottom:0.75px #ccc solid;
+        >p:first-of-type{
+            margin-bottom: 0.1rem;
+            font-size: 0.24rem /* 18/75 */;
+        }
+        div{
+            display: flex;
+            margin-bottom: 0.1rem;
+            img{
+                display: inline-block;
+                width:0.67rem;
+                height:0.67rem;
+                margin-top:0.15rem;
+            }
+            div{
+                height: 0.67rem;
+                flex:1;
+                font-size: 0.21rem /* 16/75 */;
+               p{
+                   flex:5;
+                   height:0.67rem;
+                   line-height:0.67rem;
+                   text-align: center;
+                   font-size: 0.21rem /* 16/75 */;
+                   span{
+                       float:right;
+                       margin-right:0.1rem;
+                       font-size: 0.21rem /* 16/75 */;
+                   }
+               }
+               span{
+                   font-size: 0.21rem /* 16/75 */;
+                    flex:1;
+                    height:0.67rem;
+                    text-align: center;
+                   line-height:0.67rem;
+               }
+
+            }
+        }
+        >span{
+            float:right;
+            margin-right:0.2rem;
+            color:red;
+            font-size:0.26rem;
+        }
+    }
+    .addressMessage{
+        padding: 0.1rem 0.1rem;
+        border-bottom:0.75px #ccc solid;
+        p:first-of-type{
+             font-size: 0.24rem /* 18/75 */;
+            margin-bottom: 0.1rem;
+        }
+        p{
+            font-size: 0.21rem /* 16/75 */;
+            span{
+                margin-left:0.1rem;
+            }
+        }
+    }
+    .orderMessage{
+        padding: 0.1rem 0.1rem;
+        p:first-of-type{
+            font-size: 0.24rem /* 18/75 */;
+            margin-bottom: 0.1rem;
+        }
+        p{
+            font-size: 0.21rem /* 16/75 */;
+            span{
+                margin-left:0.1rem;
+            }
+        }
+    }
+    .pay{
+        display: flex;
+        padding:0.1rem;
+        margin-top:0.2rem;
+        button:first-of-type{
+            margin-right:0.1rem;
+        }
+        .mint-button--normal{
+            flex:1;
+        }
+    }
+}

@@ -1,0 +1,113 @@
+$mainColor:#26a2ff;
+$hsize:0.6rem;
+html,body{
+    height: 100%;
+}
+#sm_address{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    .get_header{
+        line-height: $hsize;
+        background:$mainColor;
+         height: $hsize;
+        .mint-header-title{
+         font-size:0.24rem;
+         }
+        .mint-button{
+            line-height: $hsize;
+            height:$hsize;
+             }
+    }
+    .get_main{
+        flex:1;
+        position:relative;
+        display:flex;
+        flex-direction:column;
+        background:#d9d9d9;
+        
+    .get_footer{
+            position:absolute;
+            bottom:0rem;
+            left:0;
+            right:0;
+            height: 0.67rem;
+            line-height: 0.67rem;
+            text-align:center;
+            color:#fff;
+            font-size:0.24rem;
+            width: 100%;
+            background:$mainColor;
+        }
+        .myAddress{
+            flex:1;
+            display:flex;
+            flex-direction:column;
+            h4{
+                padding:0.13rem;
+                font-size:0.24rem;
+
+            }
+            .addressList{
+                flex:1;
+                background:#fff;
+                overflow:auto;
+                li{
+                    padding:0.133333rem 0.066667rem;
+                    display:flex;
+                    border-bottom:1px solid #d9d9d9;
+                    .site_l{
+                       flex:1;
+                       .l_top{
+                            span{
+                                margin:0 0.133333rem 0.066667rem;
+                                font-size:0.16rem;
+                                float:left;
+                                padding:0.04rem;
+                                border-radius:0.133333rem;
+                                border:1px solid brown;color:brown;
+                            }
+                            .family{
+                                border:1px solid red;color:red;
+                            }
+                            .school{
+                                border:1px solid purple;color:purple;
+                            }
+                            .company{
+                                border:1px solid orange;color:orange;
+                            }
+                            p{
+                                color:#000;
+                                font-size:0.213333rem;
+
+                            }
+                       }
+                       .l_bot{
+                        line-height:0.4rem;
+                            span{
+                                    padding:0 0.066667rem;
+                                }
+                       }
+
+                    }
+                    .site_r{
+                        width: 15%;
+                        position:relative;
+                        i{
+                            width:0.293333rem;
+                            font-size:0.293333rem;
+                            color:#d9d9d9;
+                            position:absolute;
+                            left:50%;
+                            top:50%;
+                            // margin:0.13rem;
+                            display:block;
+                            transform:translate(-50%,-50%);
+                        }
+                    }
+                }
+            }
+    }
+    }
+
+}

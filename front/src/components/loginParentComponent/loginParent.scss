@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    #app{
+        height: 100%;
+        #loginParent{
+            height: 100%;
+            >div{
+                height: 100%;
+                a{
+                    padding:0;
+                }
+                .loginP,.registerP{
+                    display: block;
+                    padding:0.2rem;
+                }
+            }
+            .mint-header{
+                height:0.6rem;
+                .mint-button-icon{
+                    text-align: top;
+                    
+                    .mintui{
+                        font-size:0.36rem;
+                    }
+                }
+                // .glyphicon-home{
+                //     margin:0.1rem 0;
+                // }
+                .mint-header-title{
+                    font-size:0.27rem;
+                }
+                .mint-button-text{
+                    font-size:0.27rem;
+                    margin-right:0.08rem;
+                }
+            }
+            .mint-tab-item-label{
+                font-size:0.27rem;
+            }
+        }
+    }
+}

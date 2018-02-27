@@ -1,0 +1,262 @@
+$hsize:0.6rem;
+$fontsize:0.25rem;
+$fontsize1:0.2rem;
+.product_cen{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  .top{
+    height: 160px;
+    position: relative;
+    .mint-header{
+      height: $hsize;
+      background: #26a2ff;
+      h1{
+        font-size: $fontsize;
+        margin: 0;
+      }
+      .mint-header-button{
+        // font-size: $fontsize1;
+      }
+    }
+    .glyphicon-home{
+      position: absolute;
+      right: 20px;
+      top:24px;
+      font-size: 40px;
+      color:#fff;
+    }
+    .serch{
+      position: absolute;
+      top:10px;
+      width: 470px;
+      left:22%;
+      height: 70px;
+      border: none;
+      border-radius: 50px;
+      padding:30px;
+      // margin:0 auto;
+    }
+    .Menu_cen{
+      position: absolute;
+      width: 100%;
+      z-index: 100;
+
+      .Menu{
+        height: 60px;
+        display: flex;
+        font-size: $fontsize1;
+        border-bottom: 1px solid #eee;
+        >li{
+          flex: 1;
+          text-align: center;
+          line-height: 60px;
+        }
+      }
+
+      .menus{
+        font-size: $fontsize1;
+        height: 560px;
+        background: #eee;
+        display: flex;
+        .menus_left{
+          flex: 35%;
+          height: 60px;
+          line-height: 60px;
+          padding-left: 60px;
+
+        }
+        .menus_right{
+          flex: 65%;
+          overflow-x: hidden;
+          background: #fff;
+         li{
+          border-bottom: 1px solid #eee;
+          height: 60px;
+          line-height: 60px;
+          margin-left: 60px;
+         }
+        }
+      }
+      .sort{
+        height: 450px;
+        background: #eee;
+        display: flex;
+        flex-direction:column;
+        .sortItem{
+          flex: 1;
+          font-size: $fontsize1;
+          padding-top:30px;
+          padding-left: 60px;
+        }
+      }
+      .filter{
+        height: 400px;
+        background: #fff;
+        .top{
+          height: 260px;
+          padding:20px 0;
+          display: flex;
+          flex-wrap: wrap;
+          .filterItem{
+            width: 30%;
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid #58bc58;
+            margin:10px;
+            font-size: $fontsize1;
+            border-radius: 5px;
+            text-align: center;
+          }
+        }
+        .filterBtn{
+          height: 80px;
+          border:1px solid #eee;
+          display: flex;
+
+          span{
+            flex: 80%;
+            font-size: 24px;
+            line-height: 80px;
+            padding-left: 30px;
+          }
+          button{
+            flex: 20%;
+            margin:0;
+            font-size: $fontsize1;
+          }
+        }
+      }
+    }
+  }
+
+  .product_menu{
+    flex: 1;
+    overflow-x: hidden;
+    .goodItem{
+      display: flex;
+      padding:30px 20px;
+      border-bottom: 1px solid #eee;
+
+      .left_img{
+        width: 200px;
+        img{
+          width: 200px;
+          height: 200px;
+        }
+      }
+      .right_prd_mess{
+        flex: 1;
+        .goodName{
+          font-size: 34px;
+          font-family: '微软雅黑';
+          height: 60px;
+          width: 300px;
+          line-height: 60px;
+          white-space:nowrap;
+          text-overflow:ellipsis;
+          overflow:hidden;
+        }
+        .goodDescribe{
+          font-size: 22px;
+          height: 50px;
+          line-height: 50px;
+          color:#cca;
+        }
+        h4{
+          position: relative;
+        }
+        .goodSize{
+          height: 30px;
+          margin:10px 0 20px 0;
+          span{
+            background: #eee;
+            padding:10px;
+            font-size: 20px;
+            border-radius: 20px;
+          }
+        }
+
+        .goodPre{
+          font-size: 40px;
+          color:orange;
+        }
+        .goodOrgpre{
+          // font-size: 16px;
+          text-decoration: line-through;
+          margin-left: 30px;
+          font-size: 28px;
+        }
+        .buy{
+          position: absolute;
+          right: 20px;
+          width: 150px;
+          border:none;
+          background: rgb(255, 149, 10);
+          height: 50px;
+          bottom: 20px;
+          // line-height: 50px;
+          font-size: 24px;
+          border-radius: 8px;
+          color:#fff;
+        }
+      }
+    }
+  }
+  .addCar{
+    height: 100px;
+    background: #2d3030;
+    display: flex;
+    color:#fff;
+    >.carIcom{
+      flex:1.5;
+      text-align: center;
+      padding-top:30px;
+      // line-height: 100px;
+      position: relative;
+      .carNum{
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        background: red;
+        border-radius: 50%;
+        left: 20px;
+        top:24px;
+        font-size: 20px;
+      }
+    }
+    .prdNum{
+      flex: 3;
+      padding-left: 30px;
+      line-height: 100px;
+      span{
+        margin-left: 20px;
+      }
+    }
+    .prdprice{
+      flex: 2;
+      line-height: 100px;
+    }
+    .account{
+      flex: 2.5;
+      position: relative;
+      button{
+        position: absolute;
+        right: 0;
+        width: 190px;
+        height: 100px;
+        color:#fff;
+        background: rgb(209, 209, 203)
+      }
+    }
+  }
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  z-index: 100;
+}

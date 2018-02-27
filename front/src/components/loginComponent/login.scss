@@ -1,0 +1,56 @@
+body,html{
+    margin:0;
+    #login{
+        .mint-header{
+            .mint-button-icon{
+                text-align: top;
+                .mintui{
+                    font-size:0.36rem;
+                }
+            }
+            .mint-header-title{
+                font-size:0.21rem;
+            }
+            .mint-button-text{
+                font-size:0.21rem;
+                margin-right:0.08rem;
+            }
+        }
+        .log{
+            margin:0.4rem 0;
+            padding:0.13rem;
+            div{
+                display: flex;
+                >label{
+                    display: inline-block;
+                    width:1.73rem;
+                    height: 0.67rem;
+                    line-height: 0.67rem;
+                    text-align: center;
+                    margin:0.13rem 0;
+                    font-size: 0.18rem;
+                }
+                input{
+                    flex:1;
+                    margin-top:0.13rem;
+                    height:0.67rem;
+                    border:0;
+                    outline:0;
+                    font-size: 0.18rem;;
+                }
+            }
+            span{
+                color:red;
+                margin-left: 0.4rem;
+            }
+            .mint-button--primary{
+                width:100%;
+                margin-top:0.27rem;
+                label{
+                    margin-bottom:0;
+                }
+            }
+        }
+    }
+    
+}

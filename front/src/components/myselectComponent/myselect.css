@@ -1,0 +1,158 @@
+@charset "UTF-8";
+#myselect {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#myselect .top {
+  height: 0.6rem;
+}
+
+#myselect .top .mint-header {
+  height: 0.6rem;
+  background: #26a2ff;
+}
+
+#myselect .top .mint-header h1 {
+  font-size: 0.25rem;
+  margin: 0;
+}
+
+#myselect .product_menu {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+#myselect .product_menu .goodItem {
+  display: flex;
+  padding: 0.2rem 0.12rem;
+  border-bottom: 0.01rem solid #eee;
+}
+
+#myselect .product_menu .goodItem .left_img {
+  width: 1.33rem;
+}
+
+#myselect .product_menu .goodItem .left_img img {
+  width: 1.33rem;
+  height: 1.33rem;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess {
+  padding: 0 0.2rem;
+  flex: 1;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .goodName {
+  font-size: 0.21rem;
+  font-family: '微软雅黑';
+  height: 0.4rem;
+  width: 4rem;
+  line-height: 0.4rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .goodDescribe {
+  font-size: 0.16rem;
+  height: 0.33rem;
+  line-height: 0.33rem;
+  color: #cca;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess h4 {
+  position: relative;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .goodSize {
+  height: 0.2rem;
+  margin: 0 0 0.13rem 0;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .goodSize span {
+  background: #eee;
+  padding: 0.05rem;
+  font-size: 0.16rem;
+  border-radius: 0.13rem;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .goodPre {
+  font-size: 0.27rem;
+  color: orange;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .goodOrgpre {
+  text-decoration: line-through;
+  margin-left: 0.2rem;
+  font-size: 0.19rem;
+}
+
+#myselect .product_menu .goodItem .right_prd_mess .buy {
+  position: absolute;
+  right: 0.93rem;
+  width: 0.93rem;
+  border: none;
+  background: #ff950a;
+  height: 0.33rem;
+  bottom: 0.16rem;
+  font-size: 0.16rem;
+  border-radius: 0.11rem;
+  color: #fff;
+}
+
+#myselect .addCar {
+  height: 100px;
+  background: #2d3030;
+  display: flex;
+  color: #fff;
+}
+
+#myselect .addCar > .carIcom {
+  flex: 1.5;
+  text-align: center;
+  padding-top: 0.2rem;
+  position: relative;
+}
+
+#myselect .addCar > .carIcom .carNum {
+  position: absolute;
+  width: 0.27rem;
+  height: 0.27rem;
+  background: red;
+  border-radius: 50%;
+  right: 0.13rem;
+  top: 0.13rem;
+  font-size: 0.16rem;
+}
+
+#myselect .addCar .prdNum {
+  flex: 3;
+  padding-left: 0.2rem;
+  line-height: 50px;
+}
+
+#myselect .addCar .prdNum span {
+  margin-left: 0.27rem;
+}
+
+#myselect .addCar .prdprice {
+  flex: 2;
+  line-height: 0.33rem;
+}
+
+#myselect .addCar .account {
+  flex: 2.5;
+  position: relative;
+}
+
+#myselect .addCar .account button {
+  position: absolute;
+  right: 0;
+  width: 2.53rem;
+  height: 0.67rem;
+  color: #fff;
+  background: #d1d1cb;
+}
